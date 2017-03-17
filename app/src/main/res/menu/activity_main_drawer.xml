@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rooster"
+            android:icon="@drawable/ic_web_asset_black_24dp"
+            android:title="Rooster" />
+        <item
+            android:id="@+id/nav_cijfers"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Cijfers" />
+        <item
+            android:id="@+id/nav_plattegrond"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Plattegrond" />
+        <item
+            android:id="@+id/nav_opdrachten"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Opdrachten" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communiceer">
+        <menu>
+            <item
+                android:id="@+id/nav_deel"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Deel" />
+            <item
+                android:id="@+id/nav_verstuur"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Verstuur" />
+        </menu>
+    </item>
+
+</menu>
